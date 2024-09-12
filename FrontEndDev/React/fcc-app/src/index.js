@@ -1,17 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-// import App from './App';
+import App from './App';
+import Footer from './Footer';
 import reportWebVitals from './reportWebVitals';
 
-function HelloWorld() {
-  return <h1 className="greeting">Hello, world!</h1>;
-}
+// Be sure to run 'npm start' to start process needed to view React application. This will live update any changes on the application/page
+// React page can be viewed from http://localhost:3000/ when running locally for testing
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <HelloWorld />
+    <App />
+    <Footer />
   </React.StrictMode>
 );
 
